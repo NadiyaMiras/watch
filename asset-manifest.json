@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/reactproject/static/css/main.a67e8531.css",
+    "main.js": "/reactproject/static/js/main.913ccc5b.js",
+    "static/js/787.3386b701.chunk.js": "/reactproject/static/js/787.3386b701.chunk.js",
+    "static/media/watch_banner_1.png": "/reactproject/static/media/watch_banner_1.b96ad97341d801615b29.png",
+    "static/media/women_watch.png": "/reactproject/static/media/women_watch.2444b6fd13bd8818987b.png",
+    "static/media/men_watch.png": "/reactproject/static/media/men_watch.e3e0482e24dc7f1de93a.png",
+    "static/media/public_watch_banner.png": "/reactproject/static/media/public_watch_banner.62cda5c9b3aa9bc0d231.png",
+    "static/media/gift_watch_kid.png": "/reactproject/static/media/gift_watch_kid.2153b29b304a9c554327.png",
+    "static/media/watch3.jpg": "/reactproject/static/media/watch3.843318d53a1aca883c24.jpg",
+    "static/media/watch_banner_3.jpg": "/reactproject/static/media/watch_banner_3.c7fb7f0e708cb1123ce1.jpg",
+    "static/media/watch_banner_2.jpg": "/reactproject/static/media/watch_banner_2.18902994af7873187251.jpg",
+    "static/media/trending_watch_4.jpg": "/reactproject/static/media/trending_watch_4.fbe69769cf4020b1a2fb.jpg",
+    "static/media/trending_watch_1.png": "/reactproject/static/media/trending_watch_1.9ffabd86965ddd987475.png",
+    "static/media/trending_watch_2.png": "/reactproject/static/media/trending_watch_2.71f41b200910d4c8db60.png",
+    "static/media/royal_shop.png": "/reactproject/static/media/royal_shop.7dd16ee65638a203364b.png",
+    "static/media/trending_watch_3.png": "/reactproject/static/media/trending_watch_3.1671805603cec0d48f2e.png",
+    "static/media/view_prdt.png": "/reactproject/static/media/view_prdt.8929ac292a674babad8f.png",
+    "static/media/user.png": "/reactproject/static/media/user.39acfdd8c10d32e77dc7.png",
+    "static/media/watch_login_bg.jpg": "/reactproject/static/media/watch_login_bg.62604f655ba58a983983.jpg",
+    "static/media/update_categ.png": "/reactproject/static/media/update_categ.c067b1165217ab556fa9.png",
+    "static/media/add_categ.png": "/reactproject/static/media/add_categ.fb2b91ec41d3d10a2c56.png",
+    "static/media/view_categ.png": "/reactproject/static/media/view_categ.9a3b32d610a8953ed231.png",
+    "static/media/remove_prdt.png": "/reactproject/static/media/remove_prdt.2c2724e0353afcd7a9b8.png",
+    "static/media/product_banner.jpg": "/reactproject/static/media/product_banner.a29146c599b31b9f819f.jpg",
+    "static/media/remove_shop.png": "/reactproject/static/media/remove_shop.4a5107d3934d32bb5f8e.png",
+    "static/media/add_prdt.png": "/reactproject/static/media/add_prdt.1e9d11657818b019ecdd.png",
+    "static/media/edit_prdt.png": "/reactproject/static/media/edit_prdt.4d2f22b4cdd047b3c25d.png",
+    "static/media/add_shop.png": "/reactproject/static/media/add_shop.611b5e0319a18ed2c357.png",
+    "index.html": "/reactproject/index.html",
+    "main.a67e8531.css.map": "/reactproject/static/css/main.a67e8531.css.map",
+    "main.913ccc5b.js.map": "/reactproject/static/js/main.913ccc5b.js.map",
+    "787.3386b701.chunk.js.map": "/reactproject/static/js/787.3386b701.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a67e8531.css",
+    "static/js/main.913ccc5b.js"
+  ]
+}
