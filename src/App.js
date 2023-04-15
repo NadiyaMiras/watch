@@ -9,7 +9,6 @@ function App() {
   const login = () => {
     let loginValues = localStorage.getItem('loginValue');
     loginValues = (loginValues == null) ? 'default' : loginValues;
-    console.log(loginValues);
     switch (loginValues) {
       case 'public':
         return <PublicHome />;
@@ -20,7 +19,6 @@ function App() {
       case 'customer':
         return <CustomerHome />;
       default:
-        console.log(loginValues);
         return <PublicHome />;
     }
   }

@@ -7,7 +7,6 @@ import ForgotPassword from './Login/forgotPassword';
 import Error_page from './Home/Error_page'
 import { Routes, Route } from 'react-router-dom';
 const Home = () => {
-  console.log('home');
   return (
     <div>
       <Routes>
