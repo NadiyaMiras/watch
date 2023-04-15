@@ -1,0 +1,131 @@
+.banner_img {
+    background-image: url('../../images/public_watch_banner.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner_img::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner_caption {
+    position: relative;
+    z-index: 1;
+}
+
+.banner_img h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.banner_img p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.explore_btn {
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #fff;
+    padding: 5px 45px;
+    margin-top: 5px;
+}
+
+.explore_btn:hover, .explore_btn:focus {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+:not(.explore_btn-check)+.explore_btn:active {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    .banner_img {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .banner_img {
+        height: 450px;
+    }
+
+    .banner_img h3 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner_img {
+        height: 350px;
+    }
+
+    .banner_img h3 {
+        font-size: 28px;
+    }
+
+    .banner_img p {
+        font-size: 16px;
+    }
+
+    .explore_btn {
+        padding: 3px 35px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .banner_img {
+        height: 250px;
+    }
+
+    .banner_img h3 {
+        font-size: 22px;
+    }
+
+    .banner_img p {
+        font-size: 14px;
+    }
+
+    .explore_btn {
+        padding: 3px 30px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .banner_img {
+        height: 210px;
+    }
+
+    .banner_img h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .banner_img p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .explore_btn {
+        padding: 2px 20px;
+    }
+}

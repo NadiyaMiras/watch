@@ -1,0 +1,99 @@
+.login_bg {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../images/watch_login_bg.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    width: 400px;
+    min-height: 400px;
+    background-color: rgba(145, 145, 145, 0.5);
+    margin: auto 10px;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+.box img {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box h5, .forgot_box h5 {
+    text-align: center;
+    color: #fff;
+}
+
+.label {
+    color: #fff;
+}
+
+.btn {
+    width: 100%;
+    background-color: #ffc839;
+    border: none;
+    color: #000;
+    transform: 2s;
+    margin-top: 10px;
+    border-radius: 0px;
+}
+
+.btn:hover, .btn:focus {
+    background-color: #febf1f;
+}
+
+:not(.btn-check)+.btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #febf1f;
+    border: none;
+}
+
+.box p, .forgot_box p {
+    text-align: center;
+    color: #fff;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.input {
+    background: none;
+    border-radius: 0px;
+}
+
+.input:focus {
+    color: #fff;
+    background: none;
+    border-color: #ffffff;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.1);
+}
+
+.box .signUp {
+    color: #febf1f;
+    font-style: normal;
+}
+
+.forgot {
+    float: right;
+    color: #febf1f;
+    margin-top: 10px;
+}
+
+.forgot:hover, .forgot:focus, .forgot:active {
+    color: #ffc839;
+}
+
+.forgot_box {
+    width: 400px;
+    min-height: 300px;
+    background-color: rgba(145, 145, 145, 0.5);
+    margin: auto 10px;
+    border-radius: 5px;
+    padding: 30px;
+}

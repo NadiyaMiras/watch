@@ -1,0 +1,136 @@
+/* CATEGORY */
+.category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    background-image: url('../../images/watch3.jpg');
+    background-size: cover;
+    margin-top: 55px;
+    min-height: calc(100vh - 55px);
+}
+
+.form {
+    max-width: 450px;
+    padding: 40px;
+    background-color: rgba(145, 145, 145, 0.5);
+    border-radius: 5px;
+    margin: 50px 0px;
+}
+
+.form h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input {
+    border-radius: 0px;
+}
+
+.label {
+    color: #fff;
+}
+
+.input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.submit_btn {
+    width: 100%;
+    background-color: #ffc839;
+    border: none;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.submit_btn:hover, .submit_btn:focus {
+    color: #fff;
+    background-color: #ffc839;
+}
+
+.submit_btn-check:checked+.submit_btn, .submit_btn.active, .submit_btn.show, .submit_btn:first-child:active, :not(.submit_btn-check)+.submit_btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #ffc839;
+    border-color: none;
+}
+
+/* CATEGORY VIEW */
+.table {
+    width: 100%;
+    margin-bottom: 0px;
+}
+
+.tableWrapper {
+    padding: 25px;
+}
+
+.table_box {
+    max-width: 100%;
+    margin: 100px 45px 45px 45px;
+    box-shadow: 0px 0px 8px rgba(12, 12, 12, 0.2);
+}
+
+.table_box h5 {
+    background-color: #201f20;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+/* CATEGORY DELETE */
+.delete_btn {
+    border-radius: 0px;
+    background: none;
+    border: none;
+    color: #000;
+    font-size: 22px;
+}
+
+.delete_btn:hover, .delete_btn:focus {
+    color: #ffc839;
+    background: none;
+}
+
+.delete_btn-check:checked+.delete_btn, .delete_btn.active, .delete_btn.show, .delete_btn:first-child:active, :not(.delete_btn-check)+.delete_btn:active {
+    color: #ffc839;
+    background: none;
+    border-color: none;
+}
+
+@media screen and (min-width: 1200px) {
+    .category {
+        height: calc(100vh - 55px);
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .tableWrapper {
+        max-width: calc(100vw - 90px);
+        max-height: calc(100vh - 200px);
+        overflow: scroll;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    .form h5, .table_box h5{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        width: 100%;
+        margin: 50px 20px;
+    }
+
+    .label {
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,123 @@
+.left_menu {
+    width: 220px;
+    background-color: #201f20;
+    transition: margin .3s ease-in-out;
+    min-height: 100vh;
+    position: fixed;
+    top: 0px;
+}
+
+.toggle {
+    margin-left: -220px;
+}
+
+.user {
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #313131;
+}
+
+.user_img {
+    width: 60px;
+    height: 60px;
+}
+
+.user h5 {
+    color: #fff;
+    margin-bottom: 3px;
+    padding-left: 20px;
+}
+
+.dot_img {
+    width: 22px;
+    height: 22px;
+    margin-left: 15px;
+}
+
+.user p {
+    color: #fff;
+    font-size: 14px;
+    color: green;
+    margin-bottom: 0;
+}
+
+.admin_head h5 {
+    color: #fff;
+    border-bottom: 1px solid #ffc839;
+    padding: 20px 30px;
+}
+
+.mainMenuWrapper {
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+}
+
+.mainMenuWrapper:hover {
+    overflow-y: scroll;
+}
+
+.mainMenuWrapper::-webkit-scrollbar {
+    width: 7px;
+}
+
+.mainMenuWrapper::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 20px;
+}
+
+.main_menu {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.main_menu h6 {
+    color: #fff;
+    font-size: 16px;
+}
+
+.main_menu li {
+    list-style-type: none;
+    padding: 5px 0px;
+}
+
+.main_menu ul {
+    padding-left: 5px;
+}
+
+.main_menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 14px;
+    transform: all(2s);
+}
+
+.main_menu a:hover, .main_menu a:focus, .main_menu a:active {
+    color: #ffc839;
+}
+
+.icon_img img {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1200px) {
+    .left_menu {
+        position: fixed;
+        top: 55px;
+        z-index: 9;
+        margin-left: -220px;
+        bottom: 0px;
+    }
+
+    .toggle {
+        margin-left: 0px;
+    }
+
+    .main_menu {
+        margin-bottom: 100px;
+    }
+
+}

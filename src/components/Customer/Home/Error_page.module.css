@@ -1,0 +1,18 @@
+.error_page_wrapper {
+    margin: 150px 0px 100px 0px;
+}
+
+.error_page {
+    background-color: #c8c8c8;
+    min-height: 350px;
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+.error_page h2 {
+    margin-bottom: 20px;
+}

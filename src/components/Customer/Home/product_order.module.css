@@ -1,0 +1,58 @@
+.order {
+    background-image: url('../../images/watch3.jpg');
+    background-size: cover;
+    padding: 20px;
+}
+
+.form {
+    max-width: 500px;
+    padding: 40px;
+    background-color: rgba(145, 145, 145, 0.5);
+    border-radius: 5px;
+    margin:100px auto 45px auto;
+}
+
+.form h5 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.input {
+    border-radius: 0px;
+}
+
+.label {
+    color: #fff;
+}
+
+.input:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: #ced4da;
+    outline: 0;
+    box-shadow: none;
+}
+
+.submit_btn {
+    width: 100%;
+    background-color: #ffc839;
+    border: none;
+    border-radius: 0px;
+    margin-top: 10px;
+    color: #000;
+}
+
+.submit_btn:hover, .submit_btn:focus {
+    color: #fff;
+    background-color: #ffc839;
+}
+
+.submit_btn-check:checked+.submit_btn, .submit_btn.active, .submit_btn.show, .submit_btn:first-child:active, :not(.submit_btn-check)+.submit_btn:active {
+    color: var(--bs-btn-active-color);
+    background-color: #ffc839;
+    border-color: none;
+}
+@media screen and (min-width: 1200px) {
+    
+}

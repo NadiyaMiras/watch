@@ -1,0 +1,117 @@
+.carouselItem img {
+    height: 650px;
+}
+
+.carouselCaption {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 0px;
+}
+
+.carouselCaption h3 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.carouselCaption p {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.explore_btn {
+    background-color: transparent;
+    border-radius: 0px;
+    border-color: #fff;
+    padding: 5px 45px;
+    max-width: 139px;
+    margin: 5px auto;
+}
+
+.explore_btn:hover, .explore_btn:focus {
+    background-color: #000;
+    color: #fff;
+    border-color: #000;
+}
+
+:not(.explore_btn-check)+.explore_btn:active {
+    color: #fff;
+    background-color: #000;
+    border-color: #000;
+}
+
+@media screen and (max-width: 1024px) {
+    .carouselItem img {
+        height: 600px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .carouselItem img {
+        height: 450px;
+    }
+
+    .carouselCaption h3 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .carouselItem img {
+        height: 350px;
+    }
+
+    .carouselCaption h3 {
+        font-size: 28px;
+    }
+
+    .carouselCaption p {
+        font-size: 16px;
+    }
+
+    .explore_btn {
+        padding: 3px 35px;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .carouselItem img {
+        height: 250px;
+    }
+
+    .carouselCaption h3 {
+        font-size: 22px;
+    }
+
+    .carouselCaption p {
+        font-size: 14px;
+    }
+
+    .explore_btn {
+        padding: 3px 30px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .carouselItem img {
+        height: 210px;
+    }
+
+    .carouselCaption h3 {
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+
+    .carouselCaption p {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .explore_btn {
+        padding: 2px 20px;
+    }
+}

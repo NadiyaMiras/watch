@@ -1,0 +1,39 @@
+.all_div {
+    margin: 0;
+}
+
+.admin-right-content {
+    flex: 1;
+    transition: margin 0.3s ease-in-out;
+}
+
+.admin-right-content.responsive_bg {
+    margin-left: 220px;
+}
+
+@media screen and (max-width: 1200px) {
+    .all_div {
+        position: relative;
+        height: 100%;
+    }
+
+    .all_div::before {
+        position: fixed;
+        content: "";
+        left: 0px;
+        right: 0;
+        top: 55px;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.2);
+        min-height: 100%;
+        z-index: 0;
+    }
+
+    .all_div.responsive_bg::before {
+        display: none;
+    }
+
+    .admin-right-content.responsive_bg {
+        margin-left: 0px;
+    }
+}

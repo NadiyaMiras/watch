@@ -1,0 +1,61 @@
+.table_box {
+    max-width: 100%;
+    margin: 100px 45px 45px 45px;
+    box-shadow: 0px 0px 8px rgba(12, 12, 12, 0.2);
+}
+
+.table_box h5 {
+    background-color: #201f20;
+    color: #fff;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.accept_btn {
+    border-radius: 0px;
+    background-color: green;
+    border: 1px solid green;
+    color: #fff;
+    font-size: 16px;
+}
+
+.accept_btn:hover, .accept_btn:focus {
+    color: green;
+    background: none;
+    border: 1px solid green;
+}
+
+.accept_btn-check:checked+.accept_btn, .accept_btn.active, .accept_btn.show, .accept_btn:first-child:active, :not(.accept_btn-check)+.accept_btn:active {
+    color: green;
+    background: none;
+    border: 1px solid green;
+}
+
+.reject_btn {
+    border-radius: 0px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    font-size: 16px;
+}
+
+.reject_btn:hover, .reject_btn:focus {
+    color: red;
+    background: none;
+    border: 1px solid red;
+}
+
+.reject_btn-check:checked+.reject_btn, .reject_btn.active, .reject_btn.show, .reject_btn:first-child:active, :not(.reject_btn-check)+.reject_btn:active {
+    color: red;
+    background: none;
+    border: 1px solid red;
+}
+
+@media screen and (max-width: 1199px) {
+    .tableWrapper {
+        max-width: calc(100vw - 90px);
+        max-height: calc(100vh - 200px);
+        overflow: scroll;
+    }
+
+}
